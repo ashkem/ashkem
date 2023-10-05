@@ -21,6 +21,15 @@ const ashkem = {
 - Spanish (Native)
 - English (Basic)
 
+## Skills
+
+- Algorithmic development.
+- Planning and management of various development stages.
+- Development and maintenance of user interfaces for web applications.
+- Web optimization focused on SEO.
+- Coding, debugging, and testing of web applications.
+- Database structuring.
+
 <!--
 **ashkem/ashkem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
