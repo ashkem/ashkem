@@ -12,6 +12,7 @@ const ashkem = {
    frameworks:["Laravel", "Electron js", "React js", "Flutter", "Flask", "FastApi", "Django", "TailwindCSS", "Bootstrap"],
    testing:[ "jest js", "PHPUnit", "Unittest", "Pytest", "flutter_test"],
    tools:["PostMan", "Docker", "Git", "GitHub", "Kubernetes", "Node js"],
+   bd:["MySql", "MongDB", "PostgreSQL"],
    documentation:["Swagger", "Redoc"]
 }
 
