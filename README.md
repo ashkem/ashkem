@@ -8,37 +8,50 @@
 ```py
 
 class Developer:
-    def __init__(self):
-        self.skills = {
-            "code": ["JavaScript", "TypeScript", "PHP", "Python", "Dart", "Sass", "CSS", "HTML"],
-            "frameworks": ["Laravel", "Electron js", "React js", "Flutter", "Flask", "FastApi", "Django", "TailwindCSS", "Bootstrap"],
-            "testing": ["jest js", "PHPUnit", "Unittest", "Pytest", "flutter_test"],
-            "tools": ["PostMan", "Docker", "Git", "GitHub", "Kubernetes", "Node js"],
-            "bd": ["MySql", "MongDB", "PostgreSQL"],
-            "documentation": ["Swagger", "Redoc"]
-        }
+    def __init__(self, name, summary, skills):
+        self.name = name
+        self.summary = summary
+        self.skills = skills
 
-    def get_skills(self):
+    def hello_dev(self):
         """
-        Returns a dictionary containing the programmer's skills.
-
-        Returns:
-            dict: A dictionary with different skill categories.
+        Print a greeting with the developer's name and summary.
         """
-        return self.skills
+        print(f"Hello world! I'm {self.name}: {self.summary}")
 
     def print_skills(self):
         """
-        Prints the programmer's skills.
+        Print the developer's skills.
         """
+        print("Skills:")
         for category, skills_list in self.skills.items():
-            print(f"{category.capitalize()}: {', '.join(skills_list)}")
+            print(f"{category.capitalize()}:")
+            for skill in skills_list:
+                print(f"  - {skill}")
 
-# Create an instance of the Ashkem class
-ashkem = Developer()
+# Developer Data
+developer_info = {
+    "name": "Miguel Tabata",
+    "summary": "I am a Full Stack developer passionate about programming and technology.",
+    "skills": {
+        "code": ["JavaScript", "TypeScript", "PHP", "Python", "Dart", "Sass", "CSS", "HTML"],
+        "frameworks": ["Laravel", "Electron js", "React js", "Flutter", "Flask", "FastApi", "Django", "TailwindCSS", "Bootstrap"],
+        "testing": ["jest js", "PHPUnit", "Unittest", "Pytest", "flutter_test"],
+        "tools": ["Postman", "Docker", "Git", "GitHub", "Kubernetes", "Node js"],
+        "db": ["MySQL", "MongoDB", "PostgreSQL"],
+        "documentation": ["Swagger", "Redoc"]
+    }
+}
+
+# Create an instance of the Developer class
+ashkem = Developer(**developer_info)
 
 # Call the method to print the programmer's skills
+ashkem.hello_dev()
+
+# Call the method to print the developer's skills
 ashkem.print_skills()
+
 
 
 ```
