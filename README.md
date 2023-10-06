@@ -34,10 +34,10 @@ developer_info = {
     "name": "Miguel Tabata",
     "summary": "I am a Full Stack developer passionate about programming and technology.",
     "skills": {
-        "code": ["JavaScript", "TypeScript", "PHP", "Python", "Dart", "Sass", "CSS", "HTML"],
+        "code": ["JavaScript", "TypeScript", "PHP", "Python", "Dart", "Node js", "Sass", "CSS", "HTML"],
         "frameworks": ["Laravel", "Electron js", "React js", "Flutter", "Flask", "FastApi", "Django", "TailwindCSS", "Bootstrap"],
+        "tools": ["Postman", "Docker", "Git", "GitHub", "Kubernetes", "NPM", "Sublime Text", "VS Code"],
         "testing": ["jest js", "PHPUnit", "Unittest", "Pytest", "flutter_test"],
-        "tools": ["Postman", "Docker", "Git", "GitHub", "Kubernetes", "Node js"],
         "db": ["MySQL", "MongoDB", "PostgreSQL"],
         "documentation": ["Swagger", "Redoc"]
     }
