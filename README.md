@@ -1,4 +1,4 @@
-# hello world! 👋 🧑‍💻
+# Hello world! 👋 🧑‍💻
 
 
 ![cover-2](https://github.com/ashkem/ashkem/assets/73253192/3a56a0ab-5df1-4f15-b31b-3217a28ca44a)
