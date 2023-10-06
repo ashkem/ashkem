@@ -5,16 +5,41 @@
 
 ## About me in code
 
-```js
+```py
 
-const ashkem = {
-   code:["JavaScript", "TypeScript", "PHP", "Python", "Dart", "Sass", "CSS", "HTML"],
-   frameworks:["Laravel", "Electron js", "React js", "Flutter", "Flask", "FastApi", "Django", "TailwindCSS", "Bootstrap"],
-   testing:[ "jest js", "PHPUnit", "Unittest", "Pytest", "flutter_test"],
-   tools:["PostMan", "Docker", "Git", "GitHub", "Kubernetes", "Node js"],
-   bd:["MySql", "MongDB", "PostgreSQL"],
-   documentation:["Swagger", "Redoc"]
-}
+class Developer:
+    def __init__(self):
+        self.skills = {
+            "code": ["JavaScript", "TypeScript", "PHP", "Python", "Dart", "Sass", "CSS", "HTML"],
+            "frameworks": ["Laravel", "Electron js", "React js", "Flutter", "Flask", "FastApi", "Django", "TailwindCSS", "Bootstrap"],
+            "testing": ["jest js", "PHPUnit", "Unittest", "Pytest", "flutter_test"],
+            "tools": ["PostMan", "Docker", "Git", "GitHub", "Kubernetes", "Node js"],
+            "bd": ["MySql", "MongDB", "PostgreSQL"],
+            "documentation": ["Swagger", "Redoc"]
+        }
+
+    def get_skills(self):
+        """
+        Returns a dictionary containing the programmer's skills.
+
+        Returns:
+            dict: A dictionary with different skill categories.
+        """
+        return self.skills
+
+    def print_skills(self):
+        """
+        Prints the programmer's skills.
+        """
+        for category, skills_list in self.skills.items():
+            print(f"{category.capitalize()}: {', '.join(skills_list)}")
+
+# Create an instance of the Ashkem class
+ashkem = Developer()
+
+# Call the method to print the programmer's skills
+ashkem.print_skills()
+
 
 ```
 ## Languages
