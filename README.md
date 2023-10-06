@@ -1,9 +1,8 @@
 # Hello world! 👋 🧑‍💻
 
+![banner](https://github.com/ashkem/ashkem/assets/73253192/17d5f5c8-e358-4e31-8520-7a973c0781f1)
 
-![cover-2](https://github.com/ashkem/ashkem/assets/73253192/3a56a0ab-5df1-4f15-b31b-3217a28ca44a)
-
-## About me in code
+## Me in code
 
 ```py
 
